@@ -1,0 +1,324 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("fonts/Roboto-Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("fonts/Roboto-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+#hello {
+    display: none;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 50%;
+    height: 50%;
+    overflow: auto;
+    text-align: center;
+    color: #000;
+    font-size: 40px;
+    opacity: 0.8;
+}
+
+body {
+    font-family: "Roboto";
+    overflow-x: hidden;
+}
+
+button {
+    outline: none;
+}
+
+.wrapper {
+    background: #efffff;
+    color: #000;
+}
+
+.hi_input {
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 50%;
+    height: 50%;
+    overflow: auto;
+    text-align: center;
+    color: #000;
+}
+
+.intro {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background: linear-gradient(-45deg, #f1f1f1, #9dc1df, #73c1dd, #86e7d0);
+    background-size: 400% 400%;
+    animation: Gradient 15s ease infinite;
+}
+
+.droppable {
+    min-height: 500px;
+}
+
+#p1,
+#p2,
+#p3,
+#p4,
+#p5,
+#p6,
+#p7 {
+    display: inline-block;
+    width: 300px;
+    padding: 8px 10px;
+    margin: 2px auto;
+    border: 2px solid #41d5dc;
+    border-radius: 25px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#dz1,
+#dz2,
+#dz3,
+#dz4,
+#dz5,
+#dz6,
+#dz7 {
+    display: block;
+    min-width: 20%;
+    min-height: 72px;
+    max-width: 61%;
+    padding: 10px;
+    margin: 1px auto;
+    border: 1px solid rgba(75, 75, 75, 0.5);
+}
+
+button.read-btn {
+    background: none;
+    border: 2px solid #41d5dc;
+    padding: 10px 40px;
+    margin: 10px;
+    border-radius: 25px;
+    background: #41d5dc;
+    color: #fff;
+    font-size: 16px;
+}
+
+button.read-btn:hover {
+    background: none;
+    transition: 0.5s;
+    color: #000;
+}
+
+.zd-good {
+    display: none;
+    border: 2px solid #1a9835;
+    padding: 10px 40px;
+    color: #fff;
+    margin: 10px;
+    border-radius: 25px;
+    background: #1a9835;
+    cursor: default;
+    font-size: 16px;
+}
+
+.next-btn {
+    float: right;
+}
+
+button.hi_btn {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 60px;
+    color: #000;
+    border: 2px solid #000;
+    background: none;
+    border-radius: 25px;
+    font-weight: bold;
+    opacity: 0.7;
+    font-size: 20px;
+}
+
+.exit_hello {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 60px;
+    color: #000;
+    border: 2px solid #000;
+    background: none;
+    border-radius: 25px;
+    font-weight: bold;
+    /* opacity: 0.7; */
+    font-size: 20px;
+    transition: 1s;
+    animation: sha 1s ease infinite;
+}
+
+span.zd-3 {
+    min-width: 120px;
+    display: inline-block;
+    padding: 10px;
+}
+
+input#input_form {
+    background: none;
+    border: 2px solid #000;
+    padding: 10px 5px;
+    font-size: 18px;
+    opacity: 0.9;
+    margin: 10px;
+}
+
+input#input_form::placeholder {
+    color: #000;
+}
+
+button.hi_btn:hover {
+    transition: 0.2s;
+    opacity: 1;
+}
+
+.hi_name {
+    font-size: 40px;
+    opacity: 0.8;
+    margin: 20px;
+}
+
+.tem-txt {
+    font-size: 18px;
+    line-height: 29px;
+    position: relative;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.tem-txt img {
+    margin: 20px auto;
+    display: block;
+}
+
+.tem-name {
+    font-size: 40px;
+    margin: 20px;
+}
+
+.tem-txt p {
+    margin-bottom: 20px;
+}
+
+.zadanie {
+    font-size: 18px;
+}
+
+.zd-3-lev {
+    font-size: 20px;
+}
+
+.zd-name {
+    font-size: 26px;
+    padding: 20px
+}
+
+.nav-btn {
+    padding: 20px;
+}
+
+.zd-input {
+    border: 3px solid #41d5dc;
+    transition: 0.5s;
+    color: #333;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.tem-txt:after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(45deg, #005aff, #00ffe7);
+    width: 100%;
+    height: 3px;
+}
+
+#fff {
+    color: #333;
+}
+
+.zd-photo img {
+    width: 280px;
+}
+
+.zd-photo {
+    padding: 10px;
+}
+
+.zd-4 {
+    font-size: 20px;
+}
+
+@keyframes Gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes sha {
+    0% {
+        margin-top: 10px
+    }
+    50% {
+        margin-top: 20px;
+    }
+    100% {
+        margin-top: 10px;
+    }
+}
+
+.test {
+    background: #efffff;
+    color: #000;
+}
+
+.vop {
+    padding: 20px;
+    font-size: 18px;
+    margin: 30px 10px;
+}
+
+.name-vop {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.itog-txt {
+    font-size: 24px;
+    padding: 20px;
+    text-align: center;
+}
+
+div#itog-test p {
+    text-align: center;
+    font-size: 18px;
+}
+
+div#itog-test {
+    margin: 40px;
+}
